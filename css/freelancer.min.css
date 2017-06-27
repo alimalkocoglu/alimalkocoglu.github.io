@@ -9,9 +9,17 @@ body {
 }
 p {
   font-size: 20px;
+  text-align: left !important;
 }
+
+p {
+max-width: 70%;
+margin: 0 auto !important;
+
+}
+
 p.small {
-  font-size: 16px;
+  font-size: 1em;
 }
 a,
 a:hover,
@@ -22,14 +30,22 @@ a.active {
 }
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
+  margin: 1em;
 }
+
+h3 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 1.5em!important;
+  }
+
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -506,7 +522,6 @@ div#maincontent {
 }
 .iconsize {
 max-width:100px;
-max-height:100px;
 }
 .project-inline h3, .project-inline p {
 display: inline-block !important;
@@ -526,4 +541,14 @@ margin: 0 auto;
 a .glyphicon {
   color: #3B4E50;
   text-shadow: none !important;
+}
+
+.project p {
+margin-top:40px !important;
+margin-left: 0px !important;
+
+}
+.wrapper-project {
+margin-bottom:20px;
+background-color: #F4F4F4;
 }
