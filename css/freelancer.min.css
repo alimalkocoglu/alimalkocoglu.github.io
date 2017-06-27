@@ -35,7 +35,7 @@ h5,
 h6 {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   margin: 1em;
 }
 
@@ -74,7 +74,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #f7f7f7;
   color: white;
 }
 header .container {
@@ -145,7 +145,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: tomato;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -522,7 +522,19 @@ div#maincontent {
 }
 .iconsize {
 max-width:100px;
+max-height:81px;
 }
+
+.iconset p{
+max-width:100%;
+font-size: 1em;
+}
+
+p .iconset:last-of-type {
+font-size: 5em !important;
+}
+
+
 .project-inline h3, .project-inline p {
 display: inline-block !important;
 vertical-align: baseline !important;
@@ -553,6 +565,15 @@ margin-bottom:20px;
 background-color: #F4F4F4;
 }
 
+.list-style {
+  max-width: 70%;
+  margin: 0 auto;
+  padding-left: 22px;
+}
 .list-style p {
-display:inline-block !important;
+  max-width: 100%;
+}
+
+.pfix p {
+max-width: 100%;
 }
