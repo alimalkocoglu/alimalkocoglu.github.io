@@ -18,9 +18,7 @@
     <link href="css/freelancer.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Khula|Source+Sans+Pro" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Khula:400,600,700|Source+Sans+Pro:300,400,600" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,7 +40,11 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <div class="logo-am">
+                <a href="#page-top">
+                  <img src="http://i.imgur.com/9L3b51G.png" alt="Homepage">
+                </a>
+              </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,10 +54,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Work</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#portfolio">Work</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -72,7 +74,6 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
                         <h1 class="name">Ali Malkocoglu</h1>
                         <hr class="star-light">
@@ -82,6 +83,35 @@
             </div>
         </div>
     </header>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -113,7 +143,7 @@
                         <img src="img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -123,17 +153,7 @@
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="Game controller">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -143,44 +163,11 @@
                         <img src="img/portfolio/safe.png" class="img-responsive" alt="Safe">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="Submarine">
-                    </a>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Contact Section -->
     <section id="contact">
@@ -663,108 +650,6 @@
                 </div>
             </div>
             <!-- Portfolio Project 5 -->
-            <div class="container">
-                <div class="row container-fluid">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>SHFT</h2>
-                            <hr class="star-primary">
-                            <a href="pdf/project-1.pdf" target="_blank"><img src="http://i.imgur.com/YijgBRz.png" class="img-fluid img-responsive"></a>
-                            <h3>What is SHFT</h3>
-                            <p>SHFT Tribes are online support groups guided by life coaches focused on topics such as Self-Love, Grief, Parenting, and more.</p>
-                            <h3> My Role </h3>
-                            <P>I joined the SHFT team at an early stage as lead UX designer and researcher. I worked closely with the product team and lead the design efforts for the entire product experience from scratch in addition to assisting marketing
-                                with user acquisition efforts.</P>
-                            <h3>Deliveribales</h3>
-                            <div class="row iconset">
-
-                                <div class="col-lg-2 col-lg-offset-1">
-                                    <img src="http://i.imgur.com/b9BJn5R.png" class="iconsize">
-                                    <p>Research based persona development.</P>
-                                </div>
-                                <div class="col-lg-2">
-                                    <img src="http://i.imgur.com/zAFnIlf.png" class="iconsize">
-                                    <p>User interview, survey design and user testing. </P>
-                                </div>
-                                <div class="col-lg-2">
-                                    <img src="http://i.imgur.com/kiqRtH4.png" class="iconsize">
-                                    <p>Information architecture design and user flows.</P>
-                                </div>
-                                <div class="col-lg-2">
-                                    <img src="http://i.imgur.com/HmFinSC.png" class="iconsize">
-                                    <p>Prototyping from low-fi to hi-fi design mockups.</P>
-                                </div>
-                                <div class="col-lg-2">
-                                    <img src="http://i.imgur.com/FBefxTJ.png" class="iconsize">
-                                    <p>HTML / CSS </P>
-                                </div>
-                            </div>
-                            <div class="wrapper-project">
-                                <div class="row project">
-                                    <div class="col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2">
-                                        <h3>Project:</h3>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <p> Designing a homepage for SHFT life coaching course.</p>
-                                    </div>
-                                </div>
-                                <div class="row project">
-                                    <div class="col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2">
-                                        <h3>Problem:</h3>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <p>Getting more qualified leads for the sales team and increase the conversion rates and automating the process.</p>
-                                    </div>
-                                </div>
-                                <div class="row project">
-                                    <div class="col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2">
-                                        <h3>Solution:</h3>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <p>Creating a content strategy based on user insights projected on customer journey map.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row row-image">
-                                <div class="col-lg-12">
-                                    <img src="http://i.imgur.com/FQhBDzT.png" class="img-responsive">
-                                </div>
-                            </div>
-                            <h3>Avarage time to purchase</h3>
-                            <p>I partnered with the marketing department to analyse the typical length for a visitor to become a paid customer for the SHFT life coaching course and the result was more than a few months. It showed that a customer interacts
-                                with the product at multiple touch points with the product with different information needs. This metric shaped my design principles different than a regular immediate sales focused ecommerce approach.</P>
-                            <h3>User journey map</h3>
-                            <p>In order to create a journey map focused on different information needs of potential users me and my team interviewed a few users and gathered insights on what they looked for before signing up. My main focus was finding the
-                                information needs for pre and post purchase periods. I validated this information with the interviews I conducted with the sales team by gathering the most asked questions during the sales process. </p>
-                            <h3>Content blue print</h3>
-                            <p>After conducting the user interviews I provided the marketing & sales team with the blueprint of the content headlines and reference points.</P>
-                            <div class="row row-image">
-                                <div class="col-lg-6">
-                                    <img src="http://i.imgur.com/2AlBT0E.png" class="img-responsive">
-                                </div>
-                                <div class="col-lg-6">
-                                    <img src="http://i.imgur.com/x9vTXk0.png" class="img-responsive">
-                                </div>
-                            </div>
-                            <h3>Results</h3>
-                            <p>Redesiged homepage increased the conversion by %13.8 With the findings of user interviews and journey maps product team developed a drip campaing and a webinar.</p>
-                            <br/>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio Project 6 -->
             <div class="container">
                 <div class="row container-fluid">
                     <div class="col-lg-12">
