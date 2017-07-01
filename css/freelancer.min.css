@@ -220,15 +220,6 @@ section.success {
     color: white;
 }
 
-@media (max-width: 767px) {
-    section {
-        padding: 75px 0;
-    }
-    section.first {
-        padding-top: 75px;
-    }
-}
-
 #portfolio .portfolio-item {
     margin: 0 0 15px;
     right: 0;
@@ -521,7 +512,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -529,17 +521,22 @@ fieldset[disabled] .btn-success.active {
 }
 
 .portfolio-modal .close-modal {
-    position: absolute;
+    position: fixed;
     width: 75px;
     height: 75px;
-    background-color: transparent;
     top: 25px;
     right: 25px;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .portfolio-modal .close-modal:hover {
     opacity: 0.3;
+}
+
+.portfolio-modal .row-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .portfolio-modal .close-modal .lr {
@@ -606,7 +603,11 @@ div#maincontent {
 
 .iconset p {
     max-width: 100%;
-    font-size: 1em;
+    font-size: 18px;
+}
+
+.iconset div {
+    margin-bottom: 10px;
 }
 
 p .iconset:last-of-type {
@@ -675,4 +676,66 @@ a .glyphicon {
 .iconset div:after {
     margin: 10px;
     content: " "
+}
+
+.carousel {
+    max-height: 550px;
+    min-height: 550px;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 75px 0;
+    }
+    section.first {
+        padding-top: 75px;
+    }
+    .portfolio-modal .close-modal .lr .rl {
+        height: 25px;
+    }
+    .portfolio-modal .close-modal .lr {
+        height: 25px;
+        margin-left: 12px;
+    }
+    .portfolio-modal .close-modal {
+        height: 25px;
+        width: 25px;
+        right: 5px;
+        top: 15px;
+        left: auto;
+    }
+    .project .col-sm-3 {
+        padding-right: 0;
+    }
+    .project .col-sm-3 h3 {
+        text-align: left;
+        margin: 1.5em 0 0em 0 !important;
+    }
+    .project p {
+        margin-top: 20px !important;
+    }
+    h3 {
+        margin: 1.5em 0 !important;
+    }
+    .modal-body {
+        padding: 15px 0;
+    }
+    .carousel {
+        max-height: 424px;
+        min-height: 424px;
+    }
+}
+
+@media (max-width: 768px) {
+    p {
+        max-width: 100%;
+    }
+    .list-style {
+        max-width: 100%;
+    }
+    .carousel {
+        max-height: 160px;
+        min-height: 160px;
+    }
 }
