@@ -32,7 +32,7 @@ a.active {
     color: #18BC9C;
 }
 
-h1,
+
 h2,
 h4,
 h5,
@@ -44,10 +44,34 @@ h6 {
 }
 
 h3 {
-    font-family: "khula", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin: 1.5em!important;
+font-weight:400;
+margin-top:2em;
+margin-bottom:0.7em;
+font-family: "khula", "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+
+}
+
+h2 {
+font-size: 2.2em !important;
+
+}
+
+h1 {
+margin: 0.5em;
+font-size:8em;
+display: block;
+font-family: "khula", "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+font-weight: 300;
+}
+
+
+
+@media (max-width: 768px) {
+    h1{
+        font-size:1.75em;
+}
 }
 
 hr.star-light,
@@ -57,9 +81,13 @@ hr.star-primary {
     border-top: solid 3px;
     text-align: center;
     max-width: 250px;
-    margin: 25px auto 30px;
+    margin: 5px auto 40px;
 }
-
+@media (max-width: 768px) {
+    hr.star-light, hr.star-primary {
+        max-width: 175px;
+}
+}
 hr.star-light {
     border-color: #3B4E50;
 }
@@ -90,7 +118,6 @@ header {
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px;
 }
 
 header img {
@@ -100,10 +127,18 @@ header img {
 
 header .intro-text .name {
     display: block;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "khula", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 2em;
+}
+
+@media (max-width: 768px) {
+  header .intro-text .name {
+font-size:3em;
+margin-top:0px;
+  }
+
 }
 
 header .intro-text .skills {
@@ -112,12 +147,6 @@ header .intro-text .skills {
 }
 
 @media (min-width: 768px) {
-    header .container {
-        padding-bottom: 100px;
-    }
-    header .intro-text .name {
-        font-size: 6.75em;
-    }
     header .intro-text .skills {
         font-size: 1.75em;
     }
@@ -206,13 +235,20 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding-bottom:100px;
 }
 
 section h2 {
     margin: 0;
     font-size: 3em;
     font-weight: 300 !important;
+}
+
+@media (max-width: 768px) {
+  section h2 {
+  font-size:2em;
+  }
+
 }
 
 section.success {
@@ -356,21 +392,21 @@ footer .footer-below {
 }
 
 .btn-outline {
-    color: white;
+    color: #3B4E50;
     font-size: 20px;
-    border: solid 2px white;
+    border: solid 2px #3B4E50;
     background: transparent;
     transition: all 0.3s ease-in-out;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    color: #18BC9C;
+    color: tomato;
     background: white;
-    border: solid 2px white;
+    border: solid 2px tomato;
 }
 
 .btn-primary {
@@ -716,7 +752,7 @@ a .glyphicon {
         margin-top: 20px !important;
     }
     h3 {
-        margin: 1.5em 0 !important;
+        margin: 1,5em 0 !important;
     }
     .modal-body {
         padding: 15px 0;
@@ -745,10 +781,13 @@ max-height: 50px;
 }
 
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
       .logo-am a img {
       max-height: 40px;
       margin: 5px 0 5px 5px;
       }
 
     }
+.works {
+margin-top:30px;
+}
