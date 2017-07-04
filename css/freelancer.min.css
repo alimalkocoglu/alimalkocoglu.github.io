@@ -801,3 +801,22 @@ color:red !important;
 .img-margin {
 margin:75px 0 50px 0;
 }
+hr.project-divider {
+  margin-top:0px !important;
+  margin-bottom:10px !important;
+}
+
+.cc-right {
+padding-right:150px;
+}
+.cc-left {
+padding-left:150px;
+}
+
+.card1 {
+background-color:#FFF5E0;
+}
+
+.card2 {
+background-color: #FFF0E8;
+}
