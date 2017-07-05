@@ -398,6 +398,7 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background-color: #F4F4F4;
+    color:#3B4E50;
 }
 
 .btn-outline {
@@ -909,9 +910,9 @@ hr.project-divider {
 }
 
 #contact .list-inline li a:hover {
-    color: ##3B4E50;
-    background: #fff;
-    border: solid 1px ##3B4E50;
+    color: tomato;
+    background: white;
+    border: solid 1px tomato;
 }
 
 hr.more-specific-class {
