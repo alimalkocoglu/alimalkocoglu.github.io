@@ -7,7 +7,7 @@
 body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
-    color:##3B4E50;
+    color:#3B4E50;
 }
 
 p {
@@ -909,9 +909,9 @@ hr.project-divider {
 }
 
 #contact .list-inline li a:hover {
-    color: #222222;
+    color: ##3B4E50;
     background: #fff;
-    border: solid 2px #222222;
+    border: solid 1px ##3B4E50;
 }
 
 hr.more-specific-class {
