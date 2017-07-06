@@ -14,6 +14,7 @@ p {
     font-size: 20px;
     text-align: left !important;
     font-weight: 300;
+    line-height: 1.7em;
 }
 
 p {
@@ -190,7 +191,7 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-    color: white;
+    color: tomato;
 }
 
 .navbar-custom .navbar-nav li.active a {
@@ -560,6 +561,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content img {
     margin: 0 auto;
     margin-bottom: 10px;
+    margin-top:40px;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -653,8 +655,7 @@ div#maincontent {
 }
 
 .iconset div {
-    margin-bottom: 10px;
-    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 p .iconset:last-of-type {
@@ -665,6 +666,11 @@ p .iconset:last-of-type {
 .project-inline p {
     display: inline-block !important;
     vertical-align: baseline !important;
+}
+
+.carousel {
+margin-top:35px;
+margin-bottom: 55px;
 }
 
 .carousel-control {
@@ -807,12 +813,7 @@ a .glyphicon {
 }
 
 .img-margin {
-    margin: 75px 0 50px 0;
-}
-
-hr.project-divider {
-    margin-top: 0px !important;
-    margin-bottom: 10px !important;
+    margin: 0 0 50px 0;
 }
 
 .cc-right {
@@ -915,12 +916,10 @@ hr.project-divider {
     border: solid 1px tomato;
 }
 
-hr.more-specific-class {
-    border-color: blue;
-}
-
-hr.some-class {
-    border-color: red;
+hr.project-divider{
+    border-color:tomato;
+    margin-bottom:-25px;
+    margin-top: 20px;
 }
 
 .card .caption {
@@ -962,4 +961,8 @@ width:100%;
 text-align: center !important;
 font-size:2em !important;
 font-weight: 300 !important;
+}
+
+.full-img-margin {
+margin-top: 40px;
 }
