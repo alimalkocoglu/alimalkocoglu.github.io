@@ -862,8 +862,8 @@ a .glyphicon {
 }
 
 .card-image img {
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 75px;
+    max-height: 65px;
     margin: 0 auto;
     display: block;
 }
@@ -965,4 +965,7 @@ font-weight: 300 !important;
 
 .full-img-margin {
 margin-top: 40px;
+}
+.h4-margin-works {
+margin-top:50px;
 }
