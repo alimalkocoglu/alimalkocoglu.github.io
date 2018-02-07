@@ -1,0 +1,131 @@
+h1 {
+	font-family: 'Raleway';
+	font-size: 56px;
+	font-weight: 700;
+	color:black;
+	letter-spacing: 0px;
+}
+h2, .btn {
+	font-family: 'Raleway';
+	font-size: 40px;
+	font-weight: 700;
+	color:black;
+	letter-spacing: 0px;
+}
+.btn {
+	font-size: 32px;
+	line-height: 60px;
+}
+p, .cardo {
+	font-size: 24px;
+	line-height: 35px;
+	font-family: 'Cardo';
+	letter-spacing: 1.1px;
+	margin: 1.5rem 0;
+}
+.intro-template {
+	padding: 3rem 0rem;
+}
+.portfolio-section {
+	padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    position: relative;
+    z-index: 120;
+}
+blockquote{
+    padding: 20px 80px 10px;
+    position: relative;
+    border: 0;
+}
+blockquote p:before {
+    display: block;
+    content: "\201C";
+    font-size: 160px;
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    color: #000;
+    font-family: Georgia;
+}
+blockquote p:after {
+    display: block;
+    content: "\201D";
+    font-size: 160px;
+    position: absolute;
+    right: 20px;
+    top: 75px;
+    color: #000;
+    font-family: Georgia;
+}
+.blockquote-footer {
+	color: #000;
+}
+.jumbotron {
+	margin-bottom: 0;
+}
+.yellow {
+	background-image: linear-gradient(294deg, #ffe511, #ffba07);
+}
+.green {
+	background-color: #5ab95e;
+}
+.blue {
+	background-color: #07aee3;
+}
+.purple {
+	background-color: #b286cb;
+}
+.red {
+	background-color: #cc2d3f;
+}
+.grey{
+	background-color: #f4f4f4;
+}
+.white {
+	color: #fff;
+}
+@media (min-width: 1200px) {
+.container-sm {
+    max-width: 1040px;
+}
+}
+@media (max-width:767px){
+    .center-mobile{
+        display:table;
+        margin:0 auto;
+    }
+	.h1-xs {
+		font-size: 2.5rem;
+	}
+	.xs-mbl {
+		margin-bottom: 0;
+	}
+	blockquote{
+    padding: 20px 40px 10px;
+    position: relative;
+    border: 0;
+}
+	blockquote p {
+		font-size: 22px;
+	}
+	blockquote p:before {
+    font-size: 120px;
+    left: -10px;
+}
+	blockquote p:after {
+    font-size: 120px;
+    right: -10px;
+    top: auto;
+}
+.portfolio-section {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.p-5-xs-pbr {
+	padding-bottom: 0 !important;
+}
+.p-5-xs-ptr {
+	padding-top: 0 !important;
+}
+}
