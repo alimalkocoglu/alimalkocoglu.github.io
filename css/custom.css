@@ -129,3 +129,8 @@ blockquote p:after {
 	padding-top: 0 !important;
 }
 }
+
+.contanctme a {
+color: black !important;
+style: none;
+}
