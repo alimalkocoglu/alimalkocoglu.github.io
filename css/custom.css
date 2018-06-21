@@ -67,6 +67,10 @@ blockquote p:after {
 .yellow {
 	background-image: linear-gradient(294deg, #ffe511, #ffba07);
 }
+.darkPurple {
+background-color: #7B52D0;
+}
+
 .green {
 	background-color: #5ab95e;
 }
